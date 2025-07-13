@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dress Me Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+  <h1>Dress Her Up</h1>
+  <h2>Click On Character</h2>
+  
+  <div class="game-container">
+    <img id="base" src="images/base.png">
+    <img id="clothes" src="" alt="Clothes" style="display:none;">
+  </div>
+
+  <div id="main-menu" class="menu" style= "display: none ;">
+    <button onclick="showClothes()">Show Clothes</button>
+  </div>
+
+  <div id="clothes-menu" class="menu" style="display: none ;">
+    <button onclick="changeClothes('dress1.png')">Dress 1</button>
+    <button onclick="changeClothes('dress2.png')">Dress 2</button>
+    <button onclick="changeClothes('dress3.png')">Dress 3</button>
+    <button onclick="changeClothes('dress4.png')">Dress 4</button>
+    <button onclick="changeClothes('dress5.png')">Dress 5</button>
+    <button onclick="changeClothes('dress6.png')">Dress 6</button>
+    <button onclick="changeClothes('dress7.png')">Dress 7</button>
+    <button onclick="changeClothes('dress8.png')">Dress 8</button>
+  </div>   
+
+  <script src="script.js"></script>
+</body>
+
+</html>  
